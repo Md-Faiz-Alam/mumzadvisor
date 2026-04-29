@@ -429,16 +429,14 @@ In priority order:
 
 ## Repository
 
-```
-## Live App
+### Live App
 👉 [Open Streamlit App](https://mumzadvisor-mumz.streamlit.app/)
 
-## GitHub Repository
+### GitHub Repository
 👉 [View Source Code](https://github.com/Md-Faiz-Alam/mumzadvisor)
 
-## Demo Video
+### Demo Video
 👉 [Watch Loom Demo](https://www.loom.com/share/xxxx)
-```
 
 ---
 
