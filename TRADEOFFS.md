@@ -207,23 +207,14 @@ The one eval failure (T08) is an eval engineering gap — the assertion logic wa
 
 ## 9. What I Would Build Next
 
-In priority order, if given another 5 hours:
+### Next Improvements (Post Submission)
 
-**1. Fix T08 eval assertion (30 minutes)**
-Update the refusal check to accept `budget_feasible=False` + `refusal_reason` as a passing signal, independent of the `refused` boolean.
+If given more time, I would focus on:
 
-**2. Embedding-based retrieval (2 hours)**
-Replace keyword scoring with FAISS + sentence-transformers. Fixes the semantic gap — "eczema wash" should match `sensitive_skin_safe` products even without the exact keyword.
-
-**3. Streaming responses (1 hour)**
-Implement SSE streaming in the Streamlit UI. Perceived latency drops from 24s to near-instant — the user sees the first recommendation appear while the rest are still being generated.
-
-**4. Automated Arabic quality eval (1 hour)**
-Build an LLM-as-judge prompt that scores Arabic output on naturalness (1–5) using native-Arabic example anchors. Add to eval suite as T13.
-
-**5. Delivery time field in catalog (30 minutes)**
-Add `delivery_days_uae` to the product schema. Enable urgency-aware recommendations that surface next-day delivery products first when `urgency_detected=True`.
-
+- Improving semantic search using embeddings (FAISS) to better match user intent beyond keywords.
+- Adding streaming responses to improve perceived latency in the UI.
+- Enhancing Arabic output quality with LLM-based evaluation and refinement.
+- Adding delivery-time awareness to prioritize urgent recommendations.
 ---
 
 ## Final Reflection

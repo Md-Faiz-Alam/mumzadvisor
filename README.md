@@ -62,7 +62,7 @@ Full discovery documentation: [`DISCOVERY.md`](DISCOVERY.md)
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/mumzadvisor.git
+git clone https://github.com/Md-Faiz-Alam/mumzadvisor.git
 cd mumzadvisor
 
 # 2. Create and activate virtual environment
@@ -109,12 +109,11 @@ mumzadvisor/
 │   └── products.json              ← 500 synthetic products across 12 categories
 │
 ├── discovery/
-│   ├── test2_layla_ar_gift.mp4    ← Arabic gift finder conversation recording
-│   ├── test3_hana_en_pregnant.mp4 ← Pregnancy essentials conversation recording
-│   ├── test4_dina_en_breastpump.mp4
-│   ├── test5_rania_en_skin.mp4    ← Sensitive skin multi-product recording
-│   ├── test6_sara_en_sippy.mp4    ← Urgent sippy cup recording
-│   └── DISCOVERY.md               ← Full gap analysis with evidence
+│   ├── chat-test1-AR-gift-request.mp4    ← Arabic gift finder conversation recording
+│   ├── chat-test2-EN-pregnant.mp4        ← Pregnancy essentials conversation recording
+│   ├── chat-test3-EN-comparison.mp4      ← Multiple product comparison recording
+│   ├── chat-test4-EN-sensitive-skin-bath.mp4    ← Sensitive skin multi-product recording
+│   ├── chat-test5-EN-sippy-cup-urgent.mp4    ← Urgent sippy cup recording
 │
 ├── prompts/
 │   └── system_prompt.txt          ← System prompt (EN + AR instructions)
@@ -431,8 +430,14 @@ In priority order:
 ## Repository
 
 ```
-GitHub: https://github.com/yourusername/mumzadvisor
-Loom: [3-minute walkthrough — link here]
+## Live App
+https://mumzadvisor-mumz.streamlit.app/
+
+## GitHub
+https://github.com/Md-Faiz-Alam/mumzadvisor.git
+
+## Demo Video
+https://www.loom.com/share/xxxx
 ```
 
 ---

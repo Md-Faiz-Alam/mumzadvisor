@@ -40,10 +40,20 @@ st.markdown("""
 # ─────────────────────────────────────────────
 # API KEY CHECK
 # ─────────────────────────────────────────────
-if not os.getenv("OPENROUTER_API_KEY"):
-    st.error(
-        "⚠️ OPENROUTER_API_KEY is missing. Please configure your environment variables."
-    )
+api_key = None
+
+# 1. Try Streamlit secrets (cloud)
+try:
+    api_key = st.secrets["OPENROUTER_API_KEY"]
+except Exception:
+    pass
+
+# 2. Fallback to environment variable (local)
+if not api_key:
+    api_key = os.getenv("OPENROUTER_API_KEY")
+
+if not api_key:
+    st.error("OPENROUTER_API_KEY is missing")
     st.stop()
 
 # ─────────────────────────────────────────────
