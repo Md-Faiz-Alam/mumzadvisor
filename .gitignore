@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Streamlit cache (important for your project)
+.streamlit/
+
+# Others
+*.sqlite3

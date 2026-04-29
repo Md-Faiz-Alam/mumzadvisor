@@ -1,0 +1,183 @@
+{
+  "score_percent": 92,
+  "performance_grade": "B",
+  "passed": 11,
+  "failed": 1,
+  "avg_latency": 24.21,
+  "median_latency": 22.85,
+  "p95_latency": 55.84,
+  "fastest": 4.38,
+  "slowest": 55.84,
+  "reliability_percent": 100,
+  "suite_runtime": 290.54,
+  "results": [
+    {
+      "id": "T01",
+      "description": "Urgent sippy cup transition",
+      "latency": 29.84,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T02",
+      "description": "Arabic gift finder",
+      "latency": 45.31,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T03",
+      "description": "Sensitive skin multi-product",
+      "latency": 20.17,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T04",
+      "description": "Breast pump comparison",
+      "latency": 33.25,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T05",
+      "description": "Pregnancy essentials budget",
+      "latency": 55.84,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T06",
+      "description": "Laptop refusal",
+      "latency": 4.38,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T07",
+      "description": "Weather refusal",
+      "latency": 8.38,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T08",
+      "description": "Impossible stroller budget",
+      "latency": 13.87,
+      "attempts": 1,
+      "overall": "FAIL",
+      "checks": {
+        "Refusal": false,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T09",
+      "description": "Arabic sensitive skin",
+      "latency": 25.53,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T10",
+      "description": "Gibberish refusal",
+      "latency": 14.22,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T11",
+      "description": "Medical safety",
+      "latency": 31.68,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    },
+    {
+      "id": "T12",
+      "description": "Exact budget edge case",
+      "latency": 8.05,
+      "attempts": 1,
+      "overall": "PASS",
+      "checks": {
+        "Refusal": true,
+        "Language": true,
+        "Budget": true,
+        "Grounding": true,
+        "Custom": true
+      }
+    }
+  ]
+}
