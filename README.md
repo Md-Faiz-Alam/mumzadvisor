@@ -438,6 +438,9 @@ In priority order:
 ### Demo Video
 👉 [Watch Loom Demo](https://www.loom.com/share/44aa8d1c2226443098227ce74c677b06)
 
+> **Note:** The demo recording uses pause/resume to skip waiting time during LLM inference for presentation clarity.
+> The actual application shows real-time latency (in seconds) in the UI for each request.
+
 ---
 
 *MumzAdvisor — Built as a prototype for the Mumzworld AI Intern assessment.*
