@@ -431,13 +431,13 @@ In priority order:
 
 ```
 ## Live App
-https://mumzadvisor-mumz.streamlit.app/
+👉 [Open Streamlit App](https://mumzadvisor-mumz.streamlit.app/)
 
-## GitHub
-https://github.com/Md-Faiz-Alam/mumzadvisor.git
+## GitHub Repository
+👉 [View Source Code](https://github.com/Md-Faiz-Alam/mumzadvisor)
 
 ## Demo Video
-https://www.loom.com/share/xxxx
+👉 [Watch Loom Demo](https://www.loom.com/share/xxxx)
 ```
 
 ---
